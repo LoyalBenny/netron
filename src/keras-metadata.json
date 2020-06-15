@@ -34,7 +34,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -58,7 +58,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -84,7 +84,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -118,7 +118,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -144,7 +144,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers",
+      "package": "tensorflow.keras.layers",
       "references": [
         {
           "description": "[Rectifier Nonlinearities Improve Neural Network Acoustic Models]( https://ai.stanford.edu/~amaas/papers/relu_hybrid_icml2013_final.pdf)"
@@ -191,7 +191,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers",
+      "package": "tensorflow.keras.layers",
       "references": [
         {
           "description": "[Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](https://arxiv.org/abs/1502.01852)"
@@ -222,7 +222,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers",
+      "package": "tensorflow.keras.layers",
       "references": [
         {
           "description": "[Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)](https://arxiv.org/abs/1511.07289v1)"
@@ -253,7 +253,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers",
+      "package": "tensorflow.keras.layers",
       "references": [
         {
           "description": "[Zero-Bias Autoencoders and the Benefits of Co-Adapting Features]( https://arxiv.org/abs/1402.3337)"
@@ -306,7 +306,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -354,7 +354,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -393,7 +393,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -423,7 +423,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -458,7 +458,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -489,7 +489,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -515,7 +515,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -545,7 +545,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -575,7 +575,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -601,7 +601,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -628,7 +628,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -654,7 +654,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -681,7 +681,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -719,7 +719,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -758,7 +758,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -796,7 +796,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -910,7 +910,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers",
+      "package": "tensorflow.keras.layers",
       "references": [
         {
           "description": "[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)"
@@ -1040,7 +1040,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -1059,7 +1059,7 @@
           "summary": "Consider a Numpy data array `x` of shape `(samples, timesteps, features)`,\nto be fed to an LSTM layer.\nYou want to mask sample #0 at timestep #3, and sample #2 at timestep #5,\nbecause you lack features for these sample timesteps. You can do:\n- set `x[0, 3, :] = 0.` and `x[2, 5, :] = 0.`\n- insert a `Masking` layer with `mask_value=0.` before the LSTM layer:"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -1157,7 +1157,7 @@
           "type": "T"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -1246,7 +1246,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -1335,7 +1335,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -1478,7 +1478,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers",
+      "package": "tensorflow.keras.layers",
       "references": [
         {
           "description": "[Long short-term memory](http://www.bioinf.jku.at/publications/older/2604.pdf)"
@@ -1655,7 +1655,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers",
+      "package": "tensorflow.keras.layers",
       "references": [
         {
           "description": "[Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation](https://arxiv.org/abs/1406.1078)"
@@ -1804,7 +1804,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers",
+      "package": "tensorflow.keras.layers",
       "references": [
         {
           "description": "[Convolutional LSTM Network: A Machine Learning Approach forPrecipitation Nowcasting](http://arxiv.org/abs/1506.04214v1)The current implementation does not include the feedback loop on thecells output"
@@ -1880,8 +1880,7 @@
           "name": "stateful"
         }
       ],
-      "description": "Fast GRU implementation backed by [CuDNN](https://developer.nvidia.com/cudnn).\n\nCan only be run on GPU, with the TensorFlow backend.\n",
-      "package": "keras.layers"
+      "description": "Fast GRU implementation backed by [CuDNN](https://developer.nvidia.com/cudnn).\n\nCan only be run on GPU, with the TensorFlow backend.\n"
     }
   },
   {
@@ -1949,8 +1948,7 @@
           "name": "stateful"
         }
       ],
-      "description": "Fast LSTM implementation with [CuDNN](https://developer.nvidia.com/cudnn).\n\nCan only be run on GPU, with the TensorFlow backend.\n",
-      "package": "keras.layers"
+      "description": "Fast LSTM implementation with [CuDNN](https://developer.nvidia.com/cudnn).\n\nCan only be run on GPU, with the TensorFlow backend.\n"
     }
   },
   {
@@ -2100,7 +2098,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -2164,7 +2162,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -2242,7 +2240,7 @@
         }
       ],
       "description": "Cell class for SimpleRNN.\n",
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -2333,7 +2331,7 @@
         }
       ],
       "description": "Cell class for the GRU layer.\n",
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -2413,7 +2411,7 @@
         }
       ],
       "description": "Cell class for the LSTM layer.\n",
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -2431,7 +2429,7 @@
           "code": "cells = [\n    keras.layers.LSTMCell(output_dim),\n    keras.layers.LSTMCell(output_dim),\n    keras.layers.LSTMCell(output_dim),\n]\n\ninputs = keras.Input((timesteps, input_dim))\nx = keras.layers.RNN(cells)(inputs)"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -2548,7 +2546,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -2669,7 +2667,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -2758,7 +2756,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -2871,7 +2869,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers",
+      "package": "tensorflow.keras.layers",
       "references": [
         {
           "description": "[A guide to convolution arithmetic for deep learning]( https://arxiv.org/abs/1603.07285v1)"
@@ -2905,7 +2903,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -2940,7 +2938,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -2970,7 +2968,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -3131,7 +3129,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -3254,7 +3252,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -3363,7 +3361,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -3382,7 +3380,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -3401,7 +3399,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -3435,7 +3433,7 @@
           "name": "z"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -3465,7 +3463,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -3496,7 +3494,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -3527,7 +3525,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -3558,7 +3556,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -3590,7 +3588,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers",
+      "package": "tensorflow.keras.layers",
       "references": [
         {
           "description": "[Dropout: A Simple Way to Prevent Neural Networks from Overfitting]( http://www.jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf)"
@@ -3668,7 +3666,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers",
+      "package": "tensorflow.keras.layers",
       "references": [
         {
           "description": "[A Theoretically Grounded Application of Dropout in Recurrent Neural Networks](http://arxiv.org/abs/1512.05287)"
@@ -3696,7 +3694,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -3721,7 +3719,7 @@
           "name": "z"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -3739,7 +3737,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   },
   {
@@ -3788,7 +3786,7 @@
           "name": "output"
         }
       ],
-      "package": "keras.layers"
+      "package": "tensorflow.keras.layers"
     }
   }
 ]
